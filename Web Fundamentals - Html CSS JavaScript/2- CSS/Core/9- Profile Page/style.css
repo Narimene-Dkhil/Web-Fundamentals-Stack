@@ -1,0 +1,161 @@
+/* Navigation */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navigation {
+    background-color: rgb(59, 57, 57);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: cadetblue;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+    }
+
+.bold {
+    font-weight: bold;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+/* Profile */
+
+.row {
+    display: flex;
+}
+
+.column-1 {
+    flex: 2;
+}
+
+.column-1, .column-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.user-card, .card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+
+.header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.user-id {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.icon {
+    height: 20px;
+}
+
+
+.header-1 {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.dates {
+    font-size: 20px;
+    color: grey;
+}
+
+.connections {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.bottom {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
